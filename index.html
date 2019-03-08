@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Starships</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Star Wars Starships</h1>
+    </header>
+    <main>
+        <section id="seacrh-field">
+            <form id="search-form">
+                <input 
+    
+                placeholder="ex. deathstar"
+                name="search-word" type="text">
+                <button>search</button>
+            </form>
+        </section>
+        <section id="pages">
+            <button id="previous">&lt;previous</button>
+            <span id="current-page">*</span> of <span id="total-pages"> # </span>
+            <button id="next">next &gt;</button>
+        </section>
+        <section id="starship-container"></section>
+
+
+    </main>
+<script type="module" src="./src/index.js"></script>    
+</body>
+</html>
