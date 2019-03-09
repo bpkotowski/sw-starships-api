@@ -1,0 +1,32 @@
+section {
+    padding: 10px;
+}
+
+
+#starship-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.starship {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    background: black;
+    color: white;
+    width: 300px;
+    justify-items: center;
+    
+
+
+}
+
+.starship img {
+    width:50%;
+    margin: 5px;
+    /* align-self: center */
+ 
+} 
