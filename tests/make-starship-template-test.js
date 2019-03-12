@@ -26,7 +26,7 @@ const spaceships = {
     "url": "https://swapi.co/api/starships/17/"
 };
 
-import makeStarshipTemplate from '../src/make-starship-template.js';
+import makeStarshipTemplate from '../src/starship-components.js';
 
 test('test to construct starship template', assert => {
     const expected = `<div class="starship">
